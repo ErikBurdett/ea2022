@@ -20,13 +20,13 @@ export const Button = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to={{pathname:'https://distrokid.com/hyperfollow/telephoneheater/practice'}} target="_blank" className='btn-mobile'>
+    <Link to={{pathname:'/contact'}} target="_blank" className='btn-mobile'>
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
         type={type}
       >
-        {children}
+        Contact
       </button>
     </Link>
   );

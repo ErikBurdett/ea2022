@@ -20,14 +20,14 @@ export const GithubButton = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to={{pathname:'https://github.com/ErikBurdett?'}} target="_blank" className='btn-mobile'>
+    <a href='https://github.com/ErikBurdett' target="_blank" className='btn-mobile'>
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
         type={type}
       >
-        {children}
+        Github
       </button>
-    </Link>
+    </a>
   );
 };

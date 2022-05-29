@@ -20,14 +20,14 @@ export const PrintsButton = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to={{pathname:'https://erikburdett.smugmug.com/Popular-Prints/'}} target="_blank" className='btn-mobile'>
+    <a href='https://erikburdett.smugmug.com/Popular-Prints/' target="_blank" className='btn-mobile'>
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
         type={type}
       >
-        {children}
+        Photography
       </button>
-    </Link>
+    </a>
   );
 };

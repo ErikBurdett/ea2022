@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon } from "mdbreact";
+import "../../components/contactform/ContactForm.css"
 
 const ContactForm = () => {
   const [status, setStatus] = useState("Submit");
@@ -24,21 +25,27 @@ const ContactForm = () => {
     alert(result.status);
   };
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" required />
+  <MDBContainer>
+    <MDBRow>
+      <MDBCol md="6">
+    <form className="contact-container mb-5"  onSubmit={handleSubmit}>
+      <div className="mt-4">
+        <label className="m-2" htmlFor="name">Name:</label>
+        <input className="m-2" type="text" id="name" required />
       </div>
-      <div>
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" required />
+      <div className="mt-1">
+        <label className="m-2" htmlFor="email">Email:</label>
+        <input className="m-2" type="email" id="email" required />
       </div>
-      <div>
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" required />
+      <div className="mt-1">
+        <label className="m-2" htmlFor="message">Message:</label>
+        <textarea className="form-control mb-4" rows="3" type="text" id="message" required />
       </div>
       <button type="submit">{status}</button>
     </form>
+  </MDBCol>
+    </MDBRow>
+  </MDBContainer>
   );
 };
 

@@ -5,7 +5,7 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Recent Projects</h1>
+      <h1 className="mt-1 mb-1 ">Recent Projects</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -21,7 +21,7 @@ function Cards() {
   
             <CardItem
             // needs to link to randallcountyrentals.com - from project page 
-              src='https://photos.smugmug.com/TOME/i-GFR8N5j/0/ddac55cd/X3/randalcountrentals-X3.png'
+              src='https://photos.smugmug.com/photos/i-vj7zhb8/0/7d9ad13e/X3/i-vj7zhb8-X3.png'
               text='Randall County Rentals Website - Amarillo, Texas'
               label='Website'
               href='https://randallcountyrentals.com/'
@@ -35,22 +35,22 @@ function Cards() {
               label='Photography'
               href='https://erikburdett.smugmug.com/Behind-The-Scenes/Iridis-BTS-Photos/'
             />
-            <CardItem
+            {/* <CardItem
             // link to website & project page 
               src='https://i1.sndcdn.com/artworks-uOh69n5vZw4OAyCQ-0kPnNg-t200x200.jpg'
               text='TELEPHONE HEATER Website'
               label='Website & Music'
               href='https://teleheater-site-4oyxs3mql-erikburdett.vercel.app/'
             
+            /> */}
+            <CardItem
+              src='https://photos.smugmug.com/Collages/i-NwpvRBS/0/22196399/X3/may%2025%202020-1-X3.jpg'
+              text='TELEPHONE HEATER - my music'
+              label='Music'
+              href='https://open.spotify.com/artist/1U9oQ2kPIAOymZLvRK4wrs?si=-ScNc3zaR_-VD5NkOo_YOw'
             />
             <CardItem
-              src='https://images-na.ssl-images-amazon.com/images/I/51ek2GZUcbL._SY445_SX342_QL70_ML2_.jpg'
-              text='TELEPHONE HEATER PRESENTS: New Amarilla - 2020'
-              label='Album'
-              href='https://open.spotify.com/artist/1U9oQ2kPIAOymZLvRK4wrs?si=Mo1Q4py5RayCRpw3ifHA-g&dl_branch=1'
-            />
-            <CardItem
-              src='https://photos.smugmug.com/TOME/i-SpgR2Vt/0/b52df870/X2/Screenshot%20%2829%29-X2.png'
+              src='https://photos.smugmug.com/photos/i-kFNjZbS/0/181e0690/X2/i-kFNjZbS-X2.png'
               text='Eighty Twenty Meals - Amarillo, Texas'
               label='Website'
               href='https://eightytwentymeals.com/'

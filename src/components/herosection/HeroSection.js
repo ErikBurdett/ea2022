@@ -19,9 +19,10 @@ function HeroSection() {
         {/* <h4><i class="fas fa-dharmachakra"></i></h4> */}
           
         
-        <h4>Full Stack Web Developer - Copy Writer - Photography - Content Creation </h4>
+        <h4>Full Stack Web Developer - Writer - Photographer </h4>
         <h4 className="title-margin-bottom"></h4>
-        <h6>React - Node - Python - SQL - SQLite - Postgress - CSS - HTML - Javascript - Adobe Suite - Wordpress - Strapi - Headless CMSs - Photography & Video - Writing - Copy Writing - Editing - Publishing - Social Media Management </h6>
+        <h6>React - Node - Python - Flask - SQL(etc) - DevOps - Adobe Suite - Wordpress </h6>
+        <h6 className="italic-text">If it's got Docs I can learn it!</h6>
         <div className='hero-btns'>
           {/* <Button
             className='btns'
@@ -38,14 +39,14 @@ function HeroSection() {
           >
             CONTACT 
           </GithubButton>
-          <MerchButton
+          {/* <MerchButton
             className='btns'
             buttonStyle='btn--primary'
             buttonSize='btn--large'
             onClick={console.log('hey')}
           >
             MERCH
-          </MerchButton>
+          </MerchButton> */}
           <LinkedinButton
             className='btns'
             buttonStyle='btn--primary'
@@ -54,22 +55,30 @@ function HeroSection() {
           >
             RESUME 
           </LinkedinButton>
-          <ProjectsButton
+          <Button
+            className='btns'
+            buttonStyle='btn--primary'
+            buttonSize='btn--large'
+            onClick={console.log('hey')}
+          >
+            Contact
+          </Button>
+          {/* <ProjectsButton
             className='btns'
             buttonStyle='btn--primary'
             buttonSize='btn--large'
             onClick={console.log('hey')}
           >
             PROJECTS 
-          </ProjectsButton>
-          <BlogButton
+          </ProjectsButton> */}
+          {/* <BlogButton
           className='btns'
             buttonStyle='btn--primary'
             buttonSize='btn--large'
             onClick={console.log('hey')}
           >
             BLOG
-          </BlogButton>
+          </BlogButton> */}
           <PrintsButton
             className='btns'
             buttonStyle='btn--primary'

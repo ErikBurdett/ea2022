@@ -45,6 +45,9 @@ video {
       'Lucida Sans', Arial, sans-serif;
   }
   
+  .italic-text {
+    font-style: italic;
+  }
   .hero-btns {
     margin-top: 32px;
   }
