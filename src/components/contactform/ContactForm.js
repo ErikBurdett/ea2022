@@ -13,7 +13,7 @@ const ContactForm = () => {
       email: email.value,
       message: message.value,
     };
-    let response = await fetch("https://ea-node.herokuapp.com/api/contact", {
+    let response = await fetch("https://eanode.herokuapp.com/api/contact", {
       mode: 'cors',
       method: "POST",
       headers: {
