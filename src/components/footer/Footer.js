@@ -65,10 +65,10 @@ function Footer() {
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
               EAB
-              <i class="fas fa-dharmachakra"></i>
             </Link>
           </div>
-          <small class='website-rights'>EAB © 2020</small>
+          <small class='website-rights'>EAB © 2022</small>
+          <Button buttonStyle='btn--outline'>CONTACT</Button>
           <div class='social-icons'>
             {/* <Link
               class='social-icon-link facebook'
@@ -83,7 +83,9 @@ function Footer() {
             <a href='https://www.youtube.com/channel/UCjzWZfWIL6mNqP870g0sM3g' target="_blank" class='social-icon-link youtube'><i class='fab fa-youtube'/></a>
             {/* <a href='https://twitter.com/telephoneheater' target="_blank" class='social-icon-link twitter'><i class='fab fa-twitter'/></a> */}
             <a href='https://www.linkedin.com/in/eaburdett/' target="_blank" class='social-icon-link linkedin'><i class='fab fa-linkedin'/></a>
+            
           </div>
+
         </div>
       </section>
     </div>

@@ -1,12 +1,9 @@
 import React from 'react';
 import '../../App.css';
 import './HeroSection.css';
-import {ProjectsButton} from '../buttons/ProjectsButton';
-import {MerchButton} from '../buttons/MerchButton';
 import {GithubButton}  from '../buttons/GithubButton'
 import {PrintsButton} from '../buttons/PrintsButton';
 import { LinkedinButton } from '../buttons/LinkedinButton';
-import { BlogButton } from '../buttons/BlogButton';
 import {Button} from '../buttons/Button';
 
 

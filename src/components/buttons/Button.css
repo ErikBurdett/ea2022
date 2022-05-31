@@ -3,6 +3,7 @@
   }
   
   .btn {
+    
     padding: 8px 20px;
     border-radius: 2px;
     outline: none;
@@ -22,9 +23,11 @@
     padding: 8px 20px;
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
+    margin-bottom: 15%;
   }
   
   .btn--medium {
+    display: flex;
     padding: 8px 20px;
     font-size: 18px;
   }
