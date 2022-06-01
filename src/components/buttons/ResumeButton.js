@@ -6,7 +6,7 @@ const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
 
 const SIZES = ['btn--medium', 'btn--large'];
 
-export const LinkedinButton = ({
+export const ResumeButton = ({
   children,
   type,
   onClick,
@@ -20,13 +20,13 @@ export const LinkedinButton = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <a href='https://www.linkedin.com/in/eaburdett/' target="_blank" className='btn-mobile'>
+    <a href='https://eanode.herokuapp.com/resume' target="_blank" className='btn-mobile'>
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
         type={type}
       >
-        LinkedIn
+        RESUME
       </button>
     </a>
   );

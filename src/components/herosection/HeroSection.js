@@ -5,6 +5,7 @@ import {GithubButton}  from '../buttons/GithubButton'
 import {PrintsButton} from '../buttons/PrintsButton';
 import { LinkedinButton } from '../buttons/LinkedinButton';
 import {Button} from '../buttons/Button';
+import {ResumeButton} from '../buttons/ResumeButton'
 
 
 function HeroSection() {
@@ -50,8 +51,15 @@ function HeroSection() {
             buttonSize='btn--large'
             onClick={console.log('hey')}
           >
-            RESUME 
+            LINKEDIN
           </LinkedinButton>
+          <ResumeButton
+            className='btns'
+            buttonStyle='btn--primary'
+            buttonSize='btn--large'
+            onClick={console.log('hey')}>
+            RESUME
+          </ResumeButton>
           <Button
             className='btns'
             buttonStyle='btn--primary'
